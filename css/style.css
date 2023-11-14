@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  background-color: #172d4e;
+}
+.navbar {
+  list-style: none;
+  display: inline;
+}
+.navbar lu {
+  display: inline;
+}
+.navbar li a {
+  color: #f48ccf;
+  text-decoration: none;
+  font-family: poppins;
+  display: flex;
+  row-gap: 2rem;
+  columns: 3;
+}
+body {
+  background-color: #172d4e;
+}
+footer {
+  background-color: #172d4e;
+}
+h1 {
+  color: #f48ccf;
+  font-family: poppins;
+}
+img {
+  width: 1300px;
+  height: 800px;
+}
+p {
+  font-family: poppins;
+}
