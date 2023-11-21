@@ -20,12 +20,14 @@ header {
 
 .navbar {
   list-style: none;
+  background-color: #172d4e;
   
 }
 
 .navbar li {
   display: inline-block;
   margin-right: 20px; 
+  background-color: #172d4e;
 }
 
 .navbar li a {
@@ -38,6 +40,9 @@ header {
 
 .navbar li a:hover {
   color: #fff; 
+}
+.tamLogo {
+  width: 30px;
 }
 
 main {
