@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #172d4e;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  header {
+    background-color: #172d4e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0;
+  }
+  
+  .navbar {
+    list-style: none;
+    background-color: #172d4e;
+  
+    li {
+      display: inline-block;
+      margin-right: 20px;
+      background-color: #172d4e;
+  
+      a {
+        color: #f48ccf;
+        text-decoration: none;
+        font-family: 'Poppins', sans-serif;
+        padding: 10px;
+        transition: color 0.3s ease;
+  
+        &:hover {
+          color: #fff;
+        }
+      }
+    }
+  }
+  
+  .tamLogo {
+    width: 30px;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  footer {
+    background-color: #172d4e;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+  }
+  
+  h1 {
+    color: #f48ccf;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .parrafo {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+  }
+  
+  form {
+    color: white;
+  }
+  
+  label {
+    display: block;
+    margin-top: 10px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+  
+    &[type="submit"] {
+      background-color: #f48ccf;
+      color: white;
+  
+      &:hover {
+        background-color: #fff;
+        color: #f48ccf;
+      }
+    }
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .navbar li {
+      display: block;
+      margin-bottom: 10px;
+    }
+  }
