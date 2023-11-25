@@ -3,44 +3,66 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Quién soy</title>
-    <link rel="stylesheet" href="../css/style.css" />
+    <title>Quién soy - Glad Design</title>
+    <meta name="description" content="Conoce a Micaela, una Desarrolladora Full Stack de La Plata. Estudiante en Coder House con experiencia en Diseño en Comunicación Social." />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/style.css">
   </head>
-  <body>
+  <body class="container-fluid">
     <header>
-      <nav>
-        <ul class="navbar">
-          <li>
-            <a href="../index.html">Home</a>
-          </li>
-          <li>
-            <a href="./proyectos.html">Proyectos</a>
-          </li>
-          <li>
-            <a href="./inspiracion.html">Inspiración</a>
-          </li>
-          <li>
-            <a href="#">Quién soy</a>
-          </li>
-          <li>
-            <a href="./contacto.html">Contacto</a>
-          </li>
-        </ul>
+      <nav class="navbar" >
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img class="tamLogo" src="../assets/logogladsecundario.png" alt="logo secundario">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item home">
+                <a class="nav-link" href="../index.html">Home</a>
+              </li>
+              <li class="nav-item inspiracion">
+                <a class="nav-link" href="./inspiracion.html">Inspiración</a>
+              </li>
+              <li class="nav-item proyectos">
+                <a class="nav-link" href="./proyectos.html">
+                  Proyectos
+                </a>
+              </li>
+              <li class="nav-item quienSoy">
+                <a class="nav-link" href="#">Quién soy</a>
+              </li>
+              <li class="nav-item contacto">
+                <a class="nav-link" href="./contacto.html">Contacto</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
       </nav>
     </header>
     <main>
-      <h1>Quién soy?</h1>
-      <section>
+      <h1>Quién soy</h1>
+      <section class="perfil-section imagen-container">
+        <img src="../assets/perfil.jpg" alt="Imagen de perfil de Micaela">
         <p class="parrafo">
-          Mi nombre es Micaela y estoy estudiando la carrera de Full Stack developer en Coder House.
-          Previamente estudié Diseño en Comunicación Social en la Universidad Nacional de La Plata.
+          ¡Hola! Soy Micaela, una Desarrolladora Full Stack de 24 años proveniente de La Plata. En mi trayectoria, he explorado el fascinante mundo del desarrollo web, combinando mi formación en Diseño en Comunicación Social con habilidades técnicas para crear soluciones digitales innovadoras y visualmente atractivas.
+          Actualmente, curso mis estudios en Coder House, donde realizo proyectos y desafíos que me permiten expandir mis conocimientos y habilidades en el ámbito tecnológico.
+          Mi enfoque va más allá del código; busco crear experiencias significativas y funcionales para los usuarios. Fuera del mundo digital, me encanta explorar nuevas ideas de diseño, experimentar con tecnologías emergentes y compartir conocimientos con la comunidad.
+          Estoy comprometida con el aprendizaje continuo y la mejora constante, siempre en busca de oportunidades para crecer y contribuir al emocionante mundo de la tecnología. ¡Acompáñame en mi viaje!
         </p>
       </section>
     </main>
     <footer>
-        <div>
-            Derechos reservados
-        </div>
+      <div>
+        Derechos reservados &copy; Glad Design
+      </div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
   </body>
 </html>
