@@ -132,10 +132,11 @@ form input[type=submit]:hover {
 
 .perfil-section {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .perfil-section .imagen-container {
-  flex: 0 0 auto;
+  flex: 0 0 50%; 
   margin-right: 20px;
 }
 
@@ -144,10 +145,22 @@ form input[type=submit]:hover {
   height: auto;
 }
 
-.perfil-section .parrafo {
+.perfil-section .texto-container {
   flex: 1;
+}
+
+.perfil-section .parrafo {
   font-family: "Poppins", sans-serif;
   color: white;
+  width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+  .perfil-section .imagen-container {
+    flex: 0 0 100%;
+    margin-right: 0;
+    margin-bottom: 20px; /
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
