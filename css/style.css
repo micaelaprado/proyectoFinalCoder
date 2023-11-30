@@ -43,8 +43,10 @@ header {
 
 .tamLogo {
   width: 30px;
+} 
+.navbar-toggler-icon {
+  color: #fff;
 }
-
 main {
   padding: 20px;
 }
